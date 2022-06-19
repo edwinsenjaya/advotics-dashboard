@@ -1,3 +1,5 @@
+import AverageChart from "./AverageChart";
+
 function AveragePurchaseChart() {
   return (
     <div className="col-6 text-dark">
@@ -53,7 +55,7 @@ function AveragePurchaseChart() {
                 </p>
               </div>
             </div>
-            <div className="row mt-2">CHART HERE</div>
+            <AverageChart />
           </div>
         </div>
       </div>
